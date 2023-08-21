@@ -6,6 +6,10 @@ const stacked = document.getElementById('stacked');
 const stackedReversed = document.getElementById('stackedReversed');
 const stackedSide = document.getElementById('stackedSide');
 const stackedReversedSide = document.getElementById('stackedReversedSide');
+const diagonal = document.getElementById('diagonal');
+const diagonalUpsideDown = document.getElementById('diagonalUpsideDown');
+const diagonalReversed = document.getElementById('diagonalReversed');
+const diagonalUpsideDownReversed = document.getElementById('diagonalUpsideDownReversed');
 
 text.addEventListener('keyup', function display(){
     const value = text.value;
@@ -22,4 +26,8 @@ text.addEventListener('keyup', function display(){
     stackedReversed.innerHTML = reverseText;
     stackedSide.innerHTML = value;
     stackedReversedSide.innerHTML = reverseText;
+    diagonal.innerHTML = value;
+    diagonalUpsideDown.innerHTML = value;
+    diagonalReversed.innerHTML = reverseText;
+    diagonalUpsideDownReversed.innerHTML = reverseText;
 });

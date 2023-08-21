@@ -32,6 +32,7 @@ p {
 #stackedDiv {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #stacked, #stackedReversed {
@@ -41,4 +42,12 @@ p {
 
 #stackedSide, #stackedReversedSide {
     writing-mode: vertical-lr;
+}
+
+#diagonal, #diagonalReversed {
+    transform: rotate(-45deg);
+}
+
+#diagonalUpsideDown, #diagonalUpsideDownReversed {
+    transform: rotate(225deg);
 }
