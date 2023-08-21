@@ -1,0 +1,27 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(59, 51, 51);
+}
+h1 {
+    text-align: center;
+    color: rgb(199, 2, 2);
+    font-size: 80px;
+}
+#text {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    background-color: rgb(125, 108, 108);
+    border: 2px;
+    border-radius: 20px;
+    border-color: rgb(125, 108, 108);
+    color: aliceblue;
+    font-size: 20px;
+}
+p {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}

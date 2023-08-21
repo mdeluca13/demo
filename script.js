@@ -1,12 +1,12 @@
 const here = document.getElementById('here');
 const text = document.getElementById('text');
 
-
-
-text.addEventListener('change', function display(){
-    const value = text.innerHTML;
-    let pEl = document.createElement('p');
+text.addEventListener('keyup', function display(){
+    const value = text.value;
+    const para = document.getElementById('para');
+    // let pEl = document.createElement('p');
     console.log(value)
-    pEl.appendChild(value);
-    here.appendChild(pEl);
+    // pEl.append(value);
+    para.innerHTML = value;
+    // here.append(pEl);
 });
