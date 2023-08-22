@@ -51,3 +51,11 @@ p {
 #diagonalUpsideDown, #diagonalUpsideDownReversed {
     transform: rotate(225deg);
 }
+
+.none {
+    visibility:hidden;
+}
+
+.display {
+    visibility:visible;
+}

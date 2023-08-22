@@ -10,6 +10,7 @@ const diagonal = document.getElementById('diagonal');
 const diagonalUpsideDown = document.getElementById('diagonalUpsideDown');
 const diagonalReversed = document.getElementById('diagonalReversed');
 const diagonalUpsideDownReversed = document.getElementById('diagonalUpsideDownReversed');
+const count = document.getElementById('count');
 
 text.addEventListener('keyup', function display(){
     const value = text.value;
@@ -30,4 +31,13 @@ text.addEventListener('keyup', function display(){
     diagonalUpsideDown.innerHTML = value;
     diagonalReversed.innerHTML = reverseText;
     diagonalUpsideDownReversed.innerHTML = reverseText;
+    
+    console.log(value.length)
+    if (value.length > 0) {
+        count.innerHTML = 'Count = ' + value.length; 
+    }
+    else {
+        count.innerHTML = '';
+    }
+    
 });
